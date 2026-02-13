@@ -1007,8 +1007,12 @@ input::placeholder {
 
 .customer-bottom {
   height: 502.5px;
-  padding: 0 243.172px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: auto;
   position: relative;
 }
 
@@ -1022,6 +1026,7 @@ input::placeholder {
   width: 880.66px;
   height: 416.5px;
   display: flex;
+   justify-content: center;
   margin-left: calc(var(--spacing) * -4);
   transform: translate3d(0px, 0px, 0px);
 }
